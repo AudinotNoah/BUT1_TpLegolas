@@ -58,9 +58,9 @@ public class ProgCombat {
         System.out.println(orc);
         System.out.println(arwen);
 
-        // Arwen attaque encore Ugluk
-        arwen.attaquer(orc);
+        // Ugluk attaque Arwen
+        orc.attaquer(arwen);
         System.out.println(orc);
-        System.out.println(arwen);
+        System.out.println(arwen)
     }
 }
