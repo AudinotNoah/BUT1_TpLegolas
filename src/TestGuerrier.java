@@ -351,7 +351,7 @@ public class TestGuerrier {
 	}
 
 	/**
-	 * quand guerrier est affiche sans arc avec arc
+	 * quand guerrier est affiche avec arc
 	 */
 	public void test_toString_AvecArc(){
 		// preparation des donnees
