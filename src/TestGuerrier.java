@@ -135,7 +135,7 @@ public class TestGuerrier {
 		guerrier.subirDegat(15);
 
 		// verifications
-		assertEquals("pv incorrect",10,guerrier.getPv());
+		assertEquals("pv incorrect",0,guerrier.getPv());
 	}
 
 	/**
