@@ -132,7 +132,7 @@ public class TestGuerrier {
 		Guerrier guerrier = new Guerrier("TestNom",10);
 
 		// methode testee
-		guerrier.subirDegat(-15);
+		guerrier.subirDegat(15);
 
 		// verifications
 		assertEquals("pv incorrect",10,guerrier.getPv());
